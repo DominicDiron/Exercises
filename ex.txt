@@ -1,0 +1,11 @@
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git
+$ git clone https://github.com/DominicDiron/Exercises.git
+Cloning into 'Exercises'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 22 (delta 2), reused 16 (delta 2), pack-reused 0
+Receiving objects: 100% (22/22), done.
+Resolving deltas: 100% (2/2), done.
+
