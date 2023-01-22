@@ -1,0 +1,41 @@
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git
+$ git clone https://github.com/DominicDiron/Exercises.git
+Cloning into 'Exercises'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 22 (delta 2), reused 16 (delta 2), pack-reused 0
+Receiving objects: 100% (22/22), done.
+Resolving deltas: 100% (2/2), done.
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git
+cd Exercise
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git/Exercises (main)
+$ git add .
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git/Exercises (main)
+$ git commit -m "2019csc007"
+[main 54f0810] 2019csc007
+ 6 files changed, 135 insertions(+), 2 deletions(-)
+ create mode 100644 ex.txt
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git/Exercises (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DOMINIC DIRON@LAPTOP-BSSSQOJA MINGW64 ~/Desktop/Git/Exercises (main)
+$ git push
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.54 KiB | 325.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DominicDiron/Exercises.git
+   7e11c46..54f0810  main -> main
